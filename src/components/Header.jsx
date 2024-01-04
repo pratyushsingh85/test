@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../components/header.css";
 import { Product } from "./Product";
+import { cart, contact, delivery, logo, mapIcon, offers, verifyReport, wishlist} from "../assets/Icons";
 // import { useState } from "react";
 
 // import '../components/header.css'
@@ -21,12 +22,12 @@ function Header() {
         </div>
         <div className="d-flex gap-4">
           <p className="pinCode mt-3">Pincode</p>
-          <div className="pinCode mt-3">
-            Map
+          <div className="map mt-2">
+           {mapIcon}
             {/* {locationIcon} */}
           </div>
-          <div className="pinCode mt-3">
-            profile
+          <div className="profile mt-3">
+           {/* {profileIcon} */}
             {/* {flagIcon} */}
           </div>
         </div>
@@ -36,41 +37,41 @@ function Header() {
 
       <div className="d-flex grad1">
         <div>
-          <span>logo</span>
+          <span className="logo">{logo}</span>
         </div>
         <div>
-          <span>GraentHomes</span>
-          <p>this is paragraph</p>
+          <span className="logo-text">GARNET LANEE</span>
+          <p className="sub-text">Dazzling you Today, Tomorrow & Forever</p>
         </div>
-        <div>
-          <input placeholder="search here" />
-        </div>
-        <div className="ms-3">
-          <span>Icon</span>
-          <p>Offers</p>
+        <div> 
+          <input className="search" placeholder="search Products" />
         </div>
         <div className="ms-3">
-          <span>Icon</span>
-          <p>Contact Us</p>
+          <span className="offer-icon">{offers}</span>
+          <p className="offer-text">OFFERS</p>
         </div>
         <div className="ms-3">
-          <span>Icon</span>
-          <p>WishList</p>
+          <span className="contact-icon">{contact}</span>
+          <p className="contact-text">CONTACT US</p>
         </div>
         <div className="ms-3">
-          <span>Icon</span>
-          <p>Delivery</p>
+          <span className="wishlist">{wishlist}</span>
+          <p className="wishlist-text">WISHLIST</p>
         </div>
         <div className="ms-3">
-          <span>Icon</span>
-          <p>Cart</p>
+          <span className="delivery">{delivery}</span>
+          <p className="delivery-text">DELIVERY</p>
         </div>
         <div className="ms-3">
-          <span>Icon</span>
-          <p>Verify Report</p>
+          <span className="cart" >{cart}</span>
+          <p className="delivery-text">Cart</p>
+        </div>
+        <div className="ms-3">
+          <span className="verify">{verifyReport}</span>
+          <p className="delivery-text">VERIFY REPORT</p>
         </div>
         <div className="ms-5 mt-3">
-          <span>Hi Pratyush Singh</span>
+          <span className="username">Hi, Pratyush Singh</span>
           <hr />
         </div>
       </div>
@@ -82,9 +83,11 @@ function Header() {
         <span>RINGS</span>
         <span>BRACELTES</span>
         <span>EARRINGS</span>
-        <span>DUMMY</span>
-        <span>DEMO</span>
-        <span>NEW TREND</span>
+        <span>PENDANTS</span>
+        <span>BRACELETS & BANGLES</span>
+        <span>SOLITIARES</span>
+        <span>GOLD COINS</span>
+        <span>ALL JEWELLERY</span>
       </div>
 <Product/>
       {/* image and another section */}
