@@ -1,0 +1,61 @@
+.grad {
+    background-color: #ffd588 !important;
+    background: linear-gradient(270deg, #feaa6f 28.99%, hsla(25, 99%, 72%, 0) 69.29%);
+    font-size: 10px;
+    color: gray;
+
+
+}
+.mid-text{
+    margin-left: 450px;
+    font-size: 14px;
+    font-family: "Mulish";
+    color: black;
+}
+.pinCode {
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+    font-style: normal;
+    font-family: "Mulish";
+    line-height: 4px;
+}
+.grad1 {
+    background-color: #a07c39 !important;
+    background: linear-gradient(270deg, #5d3d27 28.99%, hsla(25, 99%, 72%, 0) 69.29%);
+    font-size: 14px;
+    /* color: gray; */
+height:100px;
+
+}
+.grad2{
+    background-color: #34312d !important;
+    background: linear-gradient(270deg, #181717 28.99%, hsla(60, 4%, 5%, 0) 69.29%);
+    font-size: 14px;
+    height: 50px;
+    color: white;
+}
+.grad3{
+    background-color: #65625e !important;
+    background: linear-gradient(270deg, #383333 28.99%, hsla(60, 4%, 5%, 0) 69.29%);
+    font-size: 14px;
+    /* height: 50px; */
+    color: white;
+}
+.cards{
+    background-color: #6c4d23 !important;
+    width:100px;
+    height: 100px;
+    box-shadow: #34312d;
+    text-align: center;
+}
+.img-container{
+    background-color: #6c4d23 !important;
+    width:600px;
+    height: 400px;
+}
+.text-section{
+    background-color: #484035 !important;
+    width:800px;
+    height: 400px;
+}
