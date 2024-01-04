@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 # happy
 # lanne
 # lanne
+# lanne
